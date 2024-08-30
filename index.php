@@ -30,7 +30,7 @@
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="services.php">Services</a>
+        <a class="nav-link" href="service/service.php">Services</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="about.php">About US</a>
@@ -47,7 +47,6 @@
     </form>
   </div>
 </nav>
-
 
 
 
@@ -203,7 +202,7 @@
 <!-- ==================================================================== FORM -->
 <section>
     <div class="pt-5">
-      <h2  class="text-center">CONTACT FORM</h2>
+      <h2  class="text-center">SCHEDULE A CALL</h2>
     </div>
 
     <div class="container-fluid w-50 m-auto">
@@ -226,7 +225,7 @@
     <label >Message</label>
    <textarea name="message" class="form-control"></textarea>
   </div>
-  <button type="submit" class="btn btn-success">Submit</button>
+  <button type="submit"  class="btn btn-success">Send Message</button>
 </form>
     </div>
     <br>
@@ -241,25 +240,26 @@
           and we will happy to discuss your project. 
           We will also pull in the right <br> people from the team when needed. </small>
         </p>
-        <button type="submit" class="btn btn-success">Tell Us About your project</button>
+        <a href="https://wa.me/message/NDMJDCPTE45TG1" target="_blank" >
+        <button class="btn btn-success"> Tell Us About your project</button></a>
       </div>
 
       <div class="col-md-6 text-light pt-5">
         <div class='row'>
           <div class="col-md-2">
-            <h4>Email: </h4>
+            <h4  class="text">Email: </h4>
           </div>
           <div class="col-md-6 text-left">
-            <h6>thehouseofgraphics6@gmail.com </h6>
+            <p>thehouseofgraphics6@gmail.com </p>
           </div>
         </div>
 
         <div class='row'>
           <div class="col-md-2">
-            <h4> Phone </h4>
+            <h4 class="text">Phone </h4>
           </div>
           <div class="col-md-6 text-left">
-            <h6>+92 330 2910057 </h6>
+            <p>+92 330 2910057 </p>
           </div>
         </div>
 
@@ -279,7 +279,7 @@
 
     <div class="row">
       <div class="col-md-12 text-center text-light">
-        <p class="para">Copyrigt @ The House Of Graphhics</p>
+        <p class="para">@ COPYRIGT 2024  THE HOUSE OF GRAPHHICS. ALL RIGHT RESERVED</p>
       </div>
     </div>
 

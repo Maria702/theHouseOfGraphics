@@ -2,12 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
-    */
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    font-family: "Raleway", sans-serif;
+     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
   }
@@ -40,32 +35,72 @@ h2{
   span{
     color:  #8e28a0;
     text-transform: capitalize;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bolder;
+    font-family: "Amiri", serif;
+    font-weight: 400;
     font-style: normal;
     
   }
 
-i{
-    
+i{ 
     padding-right: 10px;
-    color: #ffffff;
     cursor: pointer;
+    background: #fff;
+    cursor: pointer;
+    transition: all .4s ease;
+    color: #3f345f;
   
 }
 
-i:hover{
- 
-  cursor: pointer;
-  color: #8e28a0;
+
+.fa {
+  box-shadow: 0 5px 25px rgba(93, 70, 232, 0.15);
+  font-size: 330px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook, .fa-linkedin  , .fa-instagram, .fa-behance {
+  border-radius: 100px;
+ padding: 10px;
+ background: #fff;
+ cursor: pointer;
+ transition: all .4s ease;
+ box-shadow: 0 5px 25px rgba(93, 70, 232, 0.15);
+
+}
+
+.para{
+  font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: .1rem;
+}
 .para:hover {
-  color: #8e28a0;
+  opacity: 0.7;
 }
 
 .talk{
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: bolder;
+  font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn{
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s;
+}
+.btn:hover{
+  opacity: 0.7;
+}
+
+.text{
+  font-family: "Amiri", serif;
+  font-weight: 400;
   font-style: normal;
 }

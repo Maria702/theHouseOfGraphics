@@ -27,7 +27,4 @@ mysqli_query($con, $query);
 
 echo '$query'
 
-
-
-
 ?>
